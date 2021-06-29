@@ -1,0 +1,121 @@
+header {
+    background-image: url("images/desktop/image-hero.jpg");
+    color: white;
+     padding-top: 4em;
+    padding-bottom: 5em;
+    padding-left: 3em;
+    padding-right: 2em;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover; 
+}
+
+.collogo{
+    padding-left: 5em;
+}
+
+.colnav{
+    padding-right: 8em;
+}
+
+
+.tagline {
+    border: 2px solid white;
+    max-width: 14em;
+    padding:0.8em;
+    margin: 1.5em;
+    letter-spacing: 0.3em;
+    font-size: 3em;
+}
+
+
+.brief{
+    position: relative;
+   top: 9em;
+    z-index: 1;
+    background-color:white;
+    padding: 5em;
+    right: 3.5em;
+    padding-bottom:2em;
+}
+
+.briefheading{
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    text-decoration: underline; ;
+}
+
+.c {
+   position: relative; 
+    /* margin:1em; */
+    margin: 1em 0;
+}
+
+.c:hover{
+    color:beige ;
+}
+
+.txt{
+    position: absolute;
+    bottom: 20px;
+    /* right: 10px; */
+    font-size: 1.5em; ;
+    color: white;
+}
+
+.subhead{
+    display:flex;
+    margin-bottom: 2em;
+}
+
+.upper{
+    margin-top: 10em;
+}
+
+.lower{
+    margin-top: 9em;
+    margin-bottom:9em;
+}
+
+.creation{
+    letter-spacing: 0.1em;
+}
+
+.sh{
+    position:relative;
+    left: 60%;
+}
+
+footer {
+    background-color: black;
+    padding: 4em;
+}
+
+.icon{
+    margin:1em;
+}
+
+@media screen and (max-width:400px)
+{
+    header{
+        background-image: url("images/mobile/image-hero.jpg");
+    }
+    .tagline{
+        min-width:9em;
+        padding:0em;
+        margin:0em;
+        margin-top: 1em;
+        letter-spacing: 0.1em;
+        font-size:2em;
+    }
+
+} 
